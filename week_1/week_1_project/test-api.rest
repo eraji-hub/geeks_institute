@@ -1,0 +1,28 @@
+ Get all students
+GET http://127.0.0.1:5001/students
+
+
+Get student with ID 2
+GET http://127.0.0.1:5001/students/2
+
+Create a new student
+POST http://127.0.0.1:5001/students
+Content-Type: application/json
+
+{
+    "name": "Alice Smith",
+    "email": "alice@example.com",
+    "age": 25,
+    "gender": "female"
+}
+Update student with ID 2
+PUT http://127.0.0.1:5001/students/2
+Content-Type: application/json
+
+{
+    "age": 26
+}
+
+Delete student with ID 3
+DELETE http://127.0.0.1:5001/students/3
+

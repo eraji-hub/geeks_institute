@@ -1,0 +1,7 @@
+[project]
+name = "week_1_project"
+version = "0.1.0"
+dependencies = [
+    "flask>=3.1.2",
+    "python-dotenv>=1.1.1"
+]
